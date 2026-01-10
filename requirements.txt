@@ -1,60 +1,35 @@
-# Core Streamlit
-streamlit==1.30.0
+# Minimal requirements for basic testing
+# Install this first if full requirements.txt fails
 
-# Audio Processing
-librosa==0.10.1
-pydub==0.25.1
-soundfile==0.12.1
-audioread==3.0.1
+# Core
+streamlit>=1.30.0
 
-# Speech Recognition & NLP
-openai-whisper==20231117
-transformers==4.36.2
-torch==2.1.2
-torchaudio==2.1.2
+# Audio (essential)
+librosa>=0.10.0
+soundfile>=0.12.0
+audioread>=3.0.0
 
-# Pronunciation Analysis
-speechbrain==0.5.16
-phonemizer==3.2.1
-epitran==1.24
-
-# Forced Alignment (choose one based on your needs)
-# gentle==0.10.1  # Uncomment if using Gentle aligner
-# montreal-forced-aligner==2.2.17  # Uncomment if using MFA
-
-# Data Processing
-numpy==1.24.3
-pandas==2.0.3
-scipy==1.11.4
-
-# Visualization
-plotly==5.18.0
-matplotlib==3.8.2
-seaborn==0.13.0
-
-# Database
-sqlalchemy==2.0.23
-
-# Utilities
-python-dotenv==1.0.0
-pyyaml==6.0.1
-tqdm==4.66.1
-
-# API & Networking (if needed)
-requests==2.31.0
-aiohttp==3.9.1
+# Speech Recognition
+openai-whisper
+transformers
+torch
+torchaudio
 
 # Text Processing
-nltk==3.8.1
-g2p-en==2.1.0
+g2p-en>=2.1.0
+nltk>=3.8
 
-# File Handling
-pillow==10.1.0
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
 
-# Deployment & Performance
-gunicorn==21.2.0
-watchdog==3.0.0
+# Visualization
+plotly>=5.18.0
 
-# Testing (optional, for development)
-pytest==7.4.3
-pytest-cov==4.1.0
+# Database
+sqlalchemy>=2.0.0
+
+# Utilities
+python-dotenv
+tqdm
