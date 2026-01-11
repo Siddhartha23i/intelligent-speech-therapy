@@ -1,3 +1,4 @@
+
 """
 Database Utilities for Speech Therapy Platform (Supabase)
 
