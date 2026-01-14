@@ -1,0 +1,8 @@
+librosa
+numpy
+soundfile
+pydub
+g2p-en
+praat-parselmouth
+torch
+torchaudio
